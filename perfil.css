@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@300&family=Rethink+Sans&family=Roboto:ital@1&display=swap');
+
+*{
+    background-color: black;
+}
+.inicial{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-content: center;
+    color: white;
+    padding: 50px 50px 0 50px;
+}
+
+.foto-perfil img{
+    border-radius: 100%;
+    width: 150px;
+}
+
+.foto-perfil{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil h2{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 5px;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numeros h1{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 2.5px;
+}
+
+.numeros p{
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.seguidores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguidores h1{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 2.5px;
+}
+
+.seguidores p{
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.seguidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguidos h1{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 2.5px;
+}
+
+.seguidos p{
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.descripcion{
+    color: white;
+}
+
+.boton{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.seguir button{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 175px;
+    cursor: pointer;
+    margin: 0 0 30px 50px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.mensaje button{
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 175px;
+    cursor: pointer;
+    margin: 0 0 30px 50px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.equipos{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+    align-content: center;
+    color: white;
+    gap: 7px;
+}
+
+.Red_Bull{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Red_Bull img{
+    width: 80px;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid orangered;
+}
+
+.Red_Bull h3{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.mercedes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mercedes img{
+    width: 80px;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid orangered;
+}
+
+.mercedes h3{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px;
+}
